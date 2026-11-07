@@ -1409,7 +1409,7 @@ namespace FarmGame.Editor
         /// <summary>Painted art replaces a placeholder, so a deleted placeholder must not come back.</summary>
         private static bool HasPaintedArt(string name)
         {
-            return File.Exists(FieldArtImporter.IconOutputPath(name));
+            return File.Exists(FieldArtImporter.IconOutputPath(name)) || File.Exists(FieldArtImporter.OutputPath(name));
         }
 
         private static void ConfigureSprite(
