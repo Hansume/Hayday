@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae6ccd461d66ef419fb121a3081aa89, type: 3}
+  m_Name: Building_CowStable
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.BuildingDefinition
+  id: cow_stable
+  displayName: Cow Stable
+  description: A sturdy stable that houses up to 3 cows.
+  icon: {fileID: 21300000, guid: 31546d0fea44d25458559dc4f08a9435, type: 3}
+  worldSprite: {fileID: 21300000, guid: e56a90c0a0055b342b81d61feb92702a, type: 3}
+  footprint: {x: 3, y: 3}
+  cost: 350
+  category: 0
+  animalKind: 3
+  animalCapacity: 3
+  animalCost: 100
+  productId: milk
+  productionSeconds: 900
+  unlockLevel: 5
+  harvestAmount: 0
+  growingSprite: {fileID: 0}

@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "lemon_tree",
+            "name": "Lemon Tree",
+            "description": "Grows lemon by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 800,
+            "unlockLevel": 6,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "lemon",
+            "productionSeconds": 14400.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "lemon",
+            "name": "Lemon",
+            "sellPrice": 90,
+            "collectXp": 7
+        }
+    ],
+    "goodsRecipes": []
+}

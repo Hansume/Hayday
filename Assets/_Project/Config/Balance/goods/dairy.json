@@ -1,0 +1,198 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "dairy",
+            "name": "Dairy",
+            "description": "Turns cow and goat milk into butter, cheese, ice cream, soap and more.",
+            "category": "Goods",
+            "width": 2,
+            "height": 2,
+            "cost": 400,
+            "unlockLevel": 7,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "",
+            "productionSeconds": 0.0
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "butter",
+            "name": "Butter",
+            "sellPrice": 280,
+            "collectXp": 15
+        },
+        {
+            "id": "cheese",
+            "name": "Cheese",
+            "sellPrice": 430,
+            "collectXp": 22
+        },
+        {
+            "id": "goat_cheese",
+            "name": "Goat Cheese",
+            "sellPrice": 360,
+            "collectXp": 24
+        },
+        {
+            "id": "goat_yogurt",
+            "name": "Goat Yogurt",
+            "sellPrice": 270,
+            "collectXp": 18
+        },
+        {
+            "id": "goat_milk_soap",
+            "name": "Goat Milk Soap",
+            "sellPrice": 260,
+            "collectXp": 20
+        },
+        {
+            "id": "ice_cream",
+            "name": "Ice Cream",
+            "sellPrice": 390,
+            "collectXp": 24
+        },
+        {
+            "id": "chili_cheese",
+            "name": "Chili Cheese",
+            "sellPrice": 700,
+            "collectXp": 34
+        },
+        {
+            "id": "fudge",
+            "name": "Fudge",
+            "sellPrice": 1080,
+            "collectXp": 46
+        }
+    ],
+    "goodsRecipes": [
+        {
+            "outputId": "butter",
+            "buildingId": "dairy",
+            "productionSeconds": 480.0,
+            "outputAmount": 1,
+            "unlockLevel": 7,
+            "inputs": [
+                {
+                    "itemId": "milk",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "cheese",
+            "buildingId": "dairy",
+            "productionSeconds": 900.0,
+            "outputAmount": 1,
+            "unlockLevel": 8,
+            "inputs": [
+                {
+                    "itemId": "milk",
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "outputId": "goat_cheese",
+            "buildingId": "dairy",
+            "productionSeconds": 1200.0,
+            "outputAmount": 1,
+            "unlockLevel": 9,
+            "inputs": [
+                {
+                    "itemId": "goat_milk",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "goat_yogurt",
+            "buildingId": "dairy",
+            "productionSeconds": 900.0,
+            "outputAmount": 1,
+            "unlockLevel": 9,
+            "inputs": [
+                {
+                    "itemId": "goat_milk",
+                    "amount": 1
+                },
+                {
+                    "itemId": "strawberry",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "goat_milk_soap",
+            "buildingId": "dairy",
+            "productionSeconds": 1500.0,
+            "outputAmount": 1,
+            "unlockLevel": 10,
+            "inputs": [
+                {
+                    "itemId": "goat_milk",
+                    "amount": 1
+                },
+                {
+                    "itemId": "soybean",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "ice_cream",
+            "buildingId": "dairy",
+            "productionSeconds": 900.0,
+            "outputAmount": 1,
+            "unlockLevel": 11,
+            "inputs": [
+                {
+                    "itemId": "milk",
+                    "amount": 2
+                },
+                {
+                    "itemId": "strawberry",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "chili_cheese",
+            "buildingId": "dairy",
+            "productionSeconds": 1500.0,
+            "outputAmount": 1,
+            "unlockLevel": 13,
+            "inputs": [
+                {
+                    "itemId": "cheese",
+                    "amount": 1
+                },
+                {
+                    "itemId": "chili",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "fudge",
+            "buildingId": "dairy",
+            "productionSeconds": 2400.0,
+            "outputAmount": 1,
+            "unlockLevel": 15,
+            "inputs": [
+                {
+                    "itemId": "butter",
+                    "amount": 2
+                },
+                {
+                    "itemId": "goat_milk",
+                    "amount": 2
+                }
+            ]
+        }
+    ]
+}

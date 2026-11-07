@@ -1,0 +1,41 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "cow_stable",
+            "name": "Cow Stable",
+            "description": "A sturdy stable that houses up to 3 cows.",
+            "category": "Animals",
+            "width": 3,
+            "height": 3,
+            "cost": 350,
+            "unlockLevel": 5,
+            "animal": "Cow",
+            "animalCapacity": 3,
+            "animalCost": 100,
+            "productId": "milk",
+            "productionSeconds": 900.0
+        }
+    ],
+    "feeds": [
+        {
+            "id": "cow_feed",
+            "name": "Cow Feed",
+            "animal": "Cow",
+            "cropId": "carrot",
+            "cropAmount": 3,
+            "productionSeconds": 600.0,
+            "outputAmount": 1
+        }
+    ],
+    "products": [
+        {
+            "id": "milk",
+            "name": "Milk",
+            "sellPrice": 110,
+            "collectXp": 12
+        }
+    ],
+    "goodsRecipes": []
+}

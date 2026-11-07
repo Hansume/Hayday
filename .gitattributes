@@ -1,0 +1,32 @@
+# Text is stored and checked out with LF line endings (as the project's files already are).
+* text=auto eol=lf
+
+# Unity YAML (Force Text serialization): text with LF endings, as Unity writes them.
+*.unity        text eol=lf
+*.prefab       text eol=lf
+*.asset        text eol=lf
+*.meta         text eol=lf
+*.mat          text eol=lf
+*.anim         text eol=lf
+*.controller   text eol=lf
+*.spriteatlasv2 text eol=lf
+*.inputactions text eol=lf
+
+# Code
+*.cs     text diff=csharp
+*.asmdef text
+*.json   text
+
+# Binary art and media
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.psd  binary
+*.tga  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.fbx  binary
+*.ttf  binary
+*.otf  binary

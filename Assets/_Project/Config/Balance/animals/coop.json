@@ -1,0 +1,41 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "coop",
+            "name": "Coop",
+            "description": "A cozy coop that houses up to 6 chickens.",
+            "category": "Animals",
+            "width": 2,
+            "height": 2,
+            "cost": 200,
+            "unlockLevel": 2,
+            "animal": "Chicken",
+            "animalCapacity": 6,
+            "animalCost": 50,
+            "productId": "egg",
+            "productionSeconds": 480.0
+        }
+    ],
+    "feeds": [
+        {
+            "id": "chicken_feed",
+            "name": "Chicken Feed",
+            "animal": "Chicken",
+            "cropId": "corn",
+            "cropAmount": 3,
+            "productionSeconds": 300.0,
+            "outputAmount": 1
+        }
+    ],
+    "products": [
+        {
+            "id": "egg",
+            "name": "Egg",
+            "sellPrice": 45,
+            "collectXp": 7
+        }
+    ],
+    "goodsRecipes": []
+}

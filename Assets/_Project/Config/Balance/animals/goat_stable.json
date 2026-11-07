@@ -1,0 +1,41 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "goat_stable",
+            "name": "Goat Stable",
+            "description": "A hillside stable that houses up to 3 goats.",
+            "category": "Animals",
+            "width": 2,
+            "height": 2,
+            "cost": 450,
+            "unlockLevel": 8,
+            "animal": "Goat",
+            "animalCapacity": 3,
+            "animalCost": 150,
+            "productId": "goat_milk",
+            "productionSeconds": 1200.0
+        }
+    ],
+    "feeds": [
+        {
+            "id": "goat_feed",
+            "name": "Goat Feed",
+            "animal": "Goat",
+            "cropId": "potato",
+            "cropAmount": 3,
+            "productionSeconds": 900.0,
+            "outputAmount": 1
+        }
+    ],
+    "products": [
+        {
+            "id": "goat_milk",
+            "name": "Goat Milk",
+            "sellPrice": 140,
+            "collectXp": 15
+        }
+    ],
+    "goodsRecipes": []
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae6ccd461d66ef419fb121a3081aa89, type: 3}
+  m_Name: Building_FishPond
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.BuildingDefinition
+  id: fish_pond
+  displayName: Fish Pond
+  description: A calm pond for up to 4 fish. Raise them and sell them when grown.
+  icon: {fileID: 21300000, guid: 9a8e97e9d778f264a932ca716d7e67ff, type: 3}
+  worldSprite: {fileID: 21300000, guid: b8c69c97fe3d0ab46b2000d6e4871bd5, type: 3}
+  footprint: {x: 2, y: 2}
+  cost: 100
+  category: 0
+  animalKind: 1
+  animalCapacity: 4
+  animalCost: 0
+  productId: 
+  productionSeconds: 300
+  unlockLevel: 1
+  harvestAmount: 0
+  growingSprite: {fileID: 0}

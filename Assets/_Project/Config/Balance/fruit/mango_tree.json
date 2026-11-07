@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "mango_tree",
+            "name": "Mango Tree",
+            "description": "Grows mango by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 3200,
+            "unlockLevel": 15,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "mango",
+            "productionSeconds": 43200.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "mango",
+            "name": "Mango",
+            "sellPrice": 360,
+            "collectXp": 20
+        }
+    ],
+    "goodsRecipes": []
+}

@@ -1,0 +1,103 @@
+{
+    "notes": [
+        "Each juice takes one fruit plus one or two other ingredients, and unlocks at the same level as its fruit tree."
+    ],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "juice_maker",
+            "name": "Juice Maker",
+            "description": "Presses fruit into juices and smoothies.",
+            "category": "Goods",
+            "width": 2,
+            "height": 2,
+            "cost": 350,
+            "unlockLevel": 3,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "",
+            "productionSeconds": 0.0
+        }
+    ],
+    "feeds": [],
+    "products": [
+        { "id": "apple_juice", "name": "Apple Juice", "sellPrice": 82, "collectXp": 8 },
+        { "id": "lemonade", "name": "Lemonade", "sellPrice": 136, "collectXp": 10 },
+        { "id": "peach_smoothie", "name": "Peach Smoothie", "sellPrice": 348, "collectXp": 19 },
+        { "id": "orange_juice", "name": "Orange Juice", "sellPrice": 298, "collectXp": 17 },
+        { "id": "mango_lassi", "name": "Mango Lassi", "sellPrice": 812, "collectXp": 37 },
+        { "id": "coconut_smoothie", "name": "Coconut Smoothie", "sellPrice": 1360, "collectXp": 59 }
+    ],
+    "goodsRecipes": [
+        {
+            "outputId": "apple_juice",
+            "buildingId": "juice_maker",
+            "productionSeconds": 240.0,
+            "outputAmount": 1,
+            "unlockLevel": 3,
+            "inputs": [
+                { "itemId": "apple", "amount": 1 },
+                { "itemId": "carrot", "amount": 1 }
+            ]
+        },
+        {
+            "outputId": "lemonade",
+            "buildingId": "juice_maker",
+            "productionSeconds": 300.0,
+            "outputAmount": 1,
+            "unlockLevel": 6,
+            "inputs": [
+                { "itemId": "lemon", "amount": 1 },
+                { "itemId": "corn", "amount": 2 }
+            ]
+        },
+        {
+            "outputId": "peach_smoothie",
+            "buildingId": "juice_maker",
+            "productionSeconds": 480.0,
+            "outputAmount": 1,
+            "unlockLevel": 9,
+            "inputs": [
+                { "itemId": "peach", "amount": 1 },
+                { "itemId": "milk", "amount": 1 },
+                { "itemId": "strawberry", "amount": 1 }
+            ]
+        },
+        {
+            "outputId": "orange_juice",
+            "buildingId": "juice_maker",
+            "productionSeconds": 420.0,
+            "outputAmount": 1,
+            "unlockLevel": 12,
+            "inputs": [
+                { "itemId": "orange", "amount": 1 },
+                { "itemId": "carrot", "amount": 2 }
+            ]
+        },
+        {
+            "outputId": "mango_lassi",
+            "buildingId": "juice_maker",
+            "productionSeconds": 720.0,
+            "outputAmount": 1,
+            "unlockLevel": 15,
+            "inputs": [
+                { "itemId": "mango", "amount": 1 },
+                { "itemId": "goat_yogurt", "amount": 1 },
+                { "itemId": "milk", "amount": 1 }
+            ]
+        },
+        {
+            "outputId": "coconut_smoothie",
+            "buildingId": "juice_maker",
+            "productionSeconds": 900.0,
+            "outputAmount": 1,
+            "unlockLevel": 18,
+            "inputs": [
+                { "itemId": "coconut", "amount": 1 },
+                { "itemId": "ice_cream", "amount": 1 },
+                { "itemId": "strawberry", "amount": 2 }
+            ]
+        }
+    ]
+}

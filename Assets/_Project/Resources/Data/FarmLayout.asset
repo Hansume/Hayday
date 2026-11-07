@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbfb05b7d2af54469e607375b5de048, type: 3}
+  m_Name: FarmLayout
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.FarmLayout
+  width: 36
+  height: 36
+  plotCells:
+  - {x: 16, y: 16}
+  - {x: 17, y: 16}
+  - {x: 18, y: 16}
+  - {x: 16, y: 17}
+  - {x: 17, y: 17}
+  - {x: 18, y: 17}
+  - {x: 16, y: 18}
+  - {x: 17, y: 18}
+  - {x: 18, y: 18}
+  startArea:
+    serializedVersion: 2
+    x: 12
+    y: 12
+    width: 12
+    height: 12
+  sectionSize: 2

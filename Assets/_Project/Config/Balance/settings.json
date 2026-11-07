@@ -1,0 +1,70 @@
+{
+    "notes": [
+        "Farm Game balance. Every .json file in this folder and its subfolders is read and merged,",
+        "so organise them however you like: one file per building is a good default. Save a file and",
+        "Unity applies the change automatically (or use Tools > Farm Game > Apply Balance).",
+        "Mistakes are reported in the Console with the file they're in, and nothing is changed.",
+        "Any file may hold any of: crops, buildings, feeds, products, goodsRecipes.",
+        "Times are in seconds (60 = 1 min, 3600 = 1 h). Prices are in coins.",
+        "Ids link things together across files. Don't rename ids of things players may already own;",
+        "their saves refer to them. Names are free to change.",
+        "Building category: Animals, Production, Goods, Fruit or Landmark. Animal: Fish, Chicken, Cow, Goat or empty.",
+        "Fruit buildings grow productId by themselves in productionSeconds; tapping one gives harvestAmount and regrows it.",
+        "unlockLevel (crops, buildings, goodsRecipes) is the player level that makes it available (default 1).",
+        "Nothing may unlock before what it needs: a recipe before its building or ingredients, an animal before its feed crop.",
+        "storage: how many items the farm holds (everything counts), and upgrades. Upgrade n (from 0) costs",
+        "upgradeBaseCost * upgradeCostGrowth^n coins, rounded to 100, and adds capacityPerUpgrade.",
+        "notices: the order board's slots (1 to 6), and the seconds an empty slot waits for a new order",
+        "after one is filled (refillAfterClaimSeconds) or discarded (refillAfterDiscardSeconds). Orders never run out of time.",
+        "visitors: townsfolk who ask for goods from goods buildings the player owns. Up to maxVisitors (1 to 4)",
+        "at once; a new one comes every arrivalMinSeconds to arrivalMaxSeconds and leaves after staySeconds.",
+        "Serving one pays coinMultiplier x the goods' sell value, xpMultiplier x the XP for making them, and",
+        "reputationBase + reputationPerItem per item of reputation. Reputation only comes from visitors.",
+        "Some visitors sell instead (sellerChance, 0 to 1): bundles of unlocked crops, products and goods at",
+        "sellerPriceMultiplier x their sell value. Reputation discounts that, up to maxDiscount at",
+        "fullDiscountReputation. sellerPriceMultiplier x (1 - maxDiscount) must stay at least 1 (no resale profit).",
+        "land: the chance (0 to 1) of a Land Deed for filling an order (orderDeedChance) or serving a visitor",
+        "(visitorDeedChance). 0.05 is 5%. One deed buys one section of the map, next to land already owned.",
+        "cocktailBar: the beach bar's line. lineSize customers (1 to 7) each want a juice, for lineSeconds; the next line comes",
+        "cooldownSeconds after that. Serving pays coinMultiplier x the juice's sell price and xpMultiplier x the XP for making it.",
+        "New crops, buildings or products also need art: until it exists, a stand-in picture is used."
+    ],
+    "startingCoins": 1000000,
+    "storage": {
+        "baseCapacity": 50,
+        "capacityPerUpgrade": 25,
+        "upgradeBaseCost": 10000,
+        "upgradeCostGrowth": 1.6,
+        "maxUpgrades": 20
+    },
+    "notices": {
+        "slots": 4,
+        "refillAfterClaimSeconds": 180.0,
+        "refillAfterDiscardSeconds": 180.0
+    },
+    "visitors": {
+        "maxVisitors": 3,
+        "arrivalMinSeconds": 120.0,
+        "arrivalMaxSeconds": 300.0,
+        "staySeconds": 1800.0,
+        "coinMultiplier": 0.6,
+        "xpMultiplier": 2.0,
+        "reputationBase": 2,
+        "reputationPerItem": 1,
+        "sellerChance": 0.15,
+        "sellerPriceMultiplier": 2.0,
+        "maxDiscount": 0.4,
+        "fullDiscountReputation": 200
+    },
+    "land": {
+        "orderDeedChance": 0.05,
+        "visitorDeedChance": 0.05
+    },
+    "cocktailBar": {
+        "lineSize": 7,
+        "lineSeconds": 18000.0,
+        "cooldownSeconds": 10800.0,
+        "coinMultiplier": 1.5,
+        "xpMultiplier": 1.5
+    }
+}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a75d5ea8bb1bac44b27ee8ed6a76b7f, type: 3}
+  m_Name: Crop_soybean
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.CropDefinition
+  id: soybean
+  displayName: Soybean
+  icon: {fileID: 21300000, guid: b9c4a3404410dba408b9731c556b94c2, type: 3}
+  stageSprites:
+  - {fileID: 21300000, guid: 33f18b25ce5da934bae8f478c876bff7, type: 3}
+  - {fileID: 21300000, guid: ebeb4d7578fa6644ba23beeaaec8d4d2, type: 3}
+  - {fileID: 21300000, guid: af64037e646e3e0428a1fda3bb46ec4d, type: 3}
+  - {fileID: 21300000, guid: efee3c19beec0ac4b97e023001ba6d6a, type: 3}
+  growSeconds: 3000
+  seedCost: 24
+  sellPrice: 48
+  yieldAmount: 2
+  harvestXp: 13
+  unlockLevel: 9

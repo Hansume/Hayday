@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae6ccd461d66ef419fb121a3081aa89, type: 3}
+  m_Name: Building_mango_tree
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.BuildingDefinition
+  id: mango_tree
+  displayName: Mango Tree
+  description: Grows mango by itself. Tap to pick.
+  icon: {fileID: 21300000, guid: e09e8665e0ba87f41b8ce49bd3ccb892, type: 3}
+  worldSprite: {fileID: 21300000, guid: b649527c5a79a7e48ad95379a263c374, type: 3}
+  footprint: {x: 1, y: 1}
+  cost: 3200
+  category: 4
+  animalKind: 0
+  animalCapacity: 0
+  animalCost: 0
+  productId: mango
+  productionSeconds: 43200
+  unlockLevel: 15
+  harvestAmount: 3
+  growingSprite: {fileID: 21300000, guid: adf7644fdd11195418682b35230ad6d9, type: 3}

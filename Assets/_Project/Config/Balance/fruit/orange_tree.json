@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "orange_tree",
+            "name": "Orange Tree",
+            "description": "Grows orange by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 2000,
+            "unlockLevel": 12,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "orange",
+            "productionSeconds": 28800.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "orange",
+            "name": "Orange",
+            "sellPrice": 220,
+            "collectXp": 14
+        }
+    ],
+    "goodsRecipes": []
+}

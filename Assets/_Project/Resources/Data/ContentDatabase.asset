@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee31ab68c601ff4495b1b68a62174b7, type: 3}
+  m_Name: ContentDatabase
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.ContentDatabase
+  crops:
+  - {fileID: 11400000, guid: ea978c84d3ea4d24ebc1160f551b472f, type: 2}
+  - {fileID: 11400000, guid: 64efe03f50e20d04980a82a598ad8174, type: 2}
+  - {fileID: 11400000, guid: 33e8db339ba0fe247a1b11a1947e5cd6, type: 2}
+  - {fileID: 11400000, guid: 57429732a8ecb8346882e8ef5f8fbba7, type: 2}
+  - {fileID: 11400000, guid: 70029690042c3444bb675ddafe6044df, type: 2}
+  - {fileID: 11400000, guid: 1cad954f4ab0ced4fb993c21a8a91ed9, type: 2}
+  - {fileID: 11400000, guid: a7af3fba255feb047a3021cc1981aa05, type: 2}
+  - {fileID: 11400000, guid: 3d69429b2b0d8e34688c04d001fe80a1, type: 2}
+  - {fileID: 11400000, guid: bbc23d1199d940d40a8d194d67461f3b, type: 2}
+  buildings:
+  - {fileID: 11400000, guid: d737b759f4813314296a4280350439b4, type: 2}
+  - {fileID: 11400000, guid: 6736643a0357e024a84b6d31ffdf6aee, type: 2}
+  - {fileID: 11400000, guid: 1061a6265d548214199fc05eea5ab468, type: 2}
+  - {fileID: 11400000, guid: a2753a71704de0c42ad3f87baa8acc83, type: 2}
+  - {fileID: 11400000, guid: cd9df28ae76070c47bc6b3809a3cb2b2, type: 2}
+  - {fileID: 11400000, guid: 72b11a2225d84384eaa44b05036931fd, type: 2}
+  - {fileID: 11400000, guid: f56d270d3bc2eba4abe10ead200d991a, type: 2}
+  - {fileID: 11400000, guid: e98aada6d5ead3d47a6bda09c820bcb4, type: 2}
+  - {fileID: 11400000, guid: 9cab5d2e85ca689438a359d7aff79651, type: 2}
+  - {fileID: 11400000, guid: a14f92262e7a3e64780ff0086cb2243c, type: 2}
+  - {fileID: 11400000, guid: 8c25e3b7475ecd34f9c28fa36ad01bae, type: 2}
+  - {fileID: 11400000, guid: 97708030dddb8d343a8440ab2f3bdb04, type: 2}
+  - {fileID: 11400000, guid: 109101f9a2e40b746a9fb7fc0f543b08, type: 2}
+  - {fileID: 11400000, guid: f88c7f5c72914c74cb78a1d2fdc9347e, type: 2}
+  - {fileID: 11400000, guid: c10c6ead623b20e4a8fafcd5ece7b610, type: 2}
+  feedRecipes:
+  - {fileID: 11400000, guid: 614a34db2c32c964a9f79a968a46a657, type: 2}
+  - {fileID: 11400000, guid: 6f9b16b67ba4bd645a812105db7037f3, type: 2}
+  - {fileID: 11400000, guid: 2c7c71b98e88c01419e6696a524e645f, type: 2}
+  - {fileID: 11400000, guid: 06311d6ca47c6e94a94d6ba90d566e5b, type: 2}
+  products:
+  - {fileID: 11400000, guid: 1d949ae8f50e751428e9a83557a97360, type: 2}
+  - {fileID: 11400000, guid: cd48de596b21db142b72170761e63c8f, type: 2}
+  - {fileID: 11400000, guid: edae44e8657477f4fa2a6da89fed3d84, type: 2}
+  - {fileID: 11400000, guid: 94dbea840471eff44b7b5e97c769128b, type: 2}
+  - {fileID: 11400000, guid: e58989d3b2963d84693e72cc8eb34e45, type: 2}
+  - {fileID: 11400000, guid: 7dcda59ecfd5985479e1ce9335160cb3, type: 2}
+  - {fileID: 11400000, guid: 687af1276765d694a97c2b4ed2efd4ee, type: 2}
+  - {fileID: 11400000, guid: e9b648c2923d4124184732b9a1c02c00, type: 2}
+  - {fileID: 11400000, guid: 3d38e9b5e23ed4841986b51f4bd2d101, type: 2}
+  - {fileID: 11400000, guid: 5dd5d970cdb5d8e4487a19dc37a0a674, type: 2}
+  - {fileID: 11400000, guid: 43cf0c460d7eea04cb97dc443b6d9162, type: 2}
+  - {fileID: 11400000, guid: 1625ec66c0714274187d860fbfd89a17, type: 2}
+  - {fileID: 11400000, guid: b0eab2282201a7c4c9a0e0aafc84b354, type: 2}
+  - {fileID: 11400000, guid: 20defe8fbb75a964f8c0d3ab093ac21c, type: 2}
+  - {fileID: 11400000, guid: 01f74379923272a4e910ab8b422dbc73, type: 2}
+  - {fileID: 11400000, guid: cfd2cdc3767424b41a2093e09b34a85d, type: 2}
+  - {fileID: 11400000, guid: 8315736aea7245f438a3773931128cd9, type: 2}
+  - {fileID: 11400000, guid: 4d7842bf94abc1f489b6ee1824dbdf9d, type: 2}
+  - {fileID: 11400000, guid: ef880370cc1064c4b8179cdef2d3d525, type: 2}
+  - {fileID: 11400000, guid: a313ed5767d3ed04baa14c11b2c395cd, type: 2}
+  - {fileID: 11400000, guid: b64f5b9d22c37c2479329831b36cfe5e, type: 2}
+  - {fileID: 11400000, guid: b1e34611e9b5ce74fb80aacded777e01, type: 2}
+  - {fileID: 11400000, guid: f66d23fbbbc79ed4caf803932fb60638, type: 2}
+  - {fileID: 11400000, guid: d4e33010fe8bf5a4eb38759ed239bf64, type: 2}
+  - {fileID: 11400000, guid: 1b7d7db41b98a464abbec555d0c828f3, type: 2}
+  - {fileID: 11400000, guid: 592ca9bd3de5eab4b8ecbbd89a50c4a7, type: 2}
+  - {fileID: 11400000, guid: ea1db21956df2e84088cbfe81eead78c, type: 2}
+  - {fileID: 11400000, guid: 0ca590263cb77714ebb1cfbc8f96d181, type: 2}
+  - {fileID: 11400000, guid: 323bc20994661874a997297feef7674c, type: 2}
+  - {fileID: 11400000, guid: 8e34696710f0db041b44ce3cfd6f3827, type: 2}
+  - {fileID: 11400000, guid: c826640d921c5354c8f2b5530a2315cf, type: 2}
+  goodsRecipes:
+  - {fileID: 11400000, guid: b9374293f2a0dab4d86f72d2f6ef97cc, type: 2}
+  - {fileID: 11400000, guid: 9ca299473bd9fb7498245c0aa42a3c95, type: 2}
+  - {fileID: 11400000, guid: fd3a157ace7ee434282141012eee555c, type: 2}
+  - {fileID: 11400000, guid: ba1edfb9a7bb4614ea6f8815fb56579a, type: 2}
+  - {fileID: 11400000, guid: 488b10cad7fb9e242b6a9713aaf6c219, type: 2}
+  - {fileID: 11400000, guid: 1be413f6d01334b40b01fc42f76416dc, type: 2}
+  - {fileID: 11400000, guid: fbdd95977228d0b4eb8ddd911da2ec82, type: 2}
+  - {fileID: 11400000, guid: ef1bae138a86f384ab3e972602b2ad78, type: 2}
+  - {fileID: 11400000, guid: baa97bf714e76374a9ba94f45d557999, type: 2}
+  - {fileID: 11400000, guid: fdccf7e5e710d6d40a13d498ee24b534, type: 2}
+  - {fileID: 11400000, guid: 44240bfc8d85e064f84cbd66aff7af50, type: 2}
+  - {fileID: 11400000, guid: ea812dc31fd1b0c438a748acd7bb113d, type: 2}
+  - {fileID: 11400000, guid: 1eb06c650b757e349834c5ded1660309, type: 2}
+  - {fileID: 11400000, guid: 424efd2d55fefc54ea2645fc0d8c2950, type: 2}
+  - {fileID: 11400000, guid: 7eeb912c04b4c394c9e0a9c70d0be259, type: 2}
+  - {fileID: 11400000, guid: c33f1a5b362f07c46896ff72b43c8f12, type: 2}
+  - {fileID: 11400000, guid: 26809a37a2fe3564d8fc800daeb474ab, type: 2}
+  - {fileID: 11400000, guid: 7ecd3e158ba19814f9cbe7c61413a170, type: 2}
+  - {fileID: 11400000, guid: 399ca13deb4803e4880d1d79647f5ecc, type: 2}
+  - {fileID: 11400000, guid: 54cb44a1a16cc18429c64ff8fd314891, type: 2}
+  - {fileID: 11400000, guid: c58373599fff08840898ca2affb2b3b2, type: 2}
+  - {fileID: 11400000, guid: 95e26adb82c8c594294e68f8dde31627, type: 2}
+  fish:
+  - {fileID: 11400000, guid: e0c95dd400fef4a408f7801c83c525dc, type: 2}
+  - {fileID: 11400000, guid: 4c2aa2234346ba247b739672202d3077, type: 2}
+  - {fileID: 11400000, guid: c1de292cbbcbc2d4b972bee22cd98984, type: 2}
+  - {fileID: 11400000, guid: 1f61fab33ecef1041ba7380e14f28cc2, type: 2}
+  - {fileID: 11400000, guid: bd7f2f358f1366b428537cf408b31f12, type: 2}
+  - {fileID: 11400000, guid: a0de2d887b30b4e47bc28955806dff16, type: 2}
+  - {fileID: 11400000, guid: 356646d53ee3bf845bc9a06386f306d7, type: 2}
+  - {fileID: 11400000, guid: 321fe4da58340a84e865d1bfe8ecf5e8, type: 2}
+  - {fileID: 11400000, guid: 589e418c4c7885c4bbaa710879b0d85d, type: 2}
+  - {fileID: 11400000, guid: b7c138308616c3d438011bf185dd1c70, type: 2}
+  layout: {fileID: 11400000, guid: 751a5a199617b7b48aac377f992af486, type: 2}
+  startingCoins: 1000000
+  storage:
+    baseCapacity: 50
+    capacityPerUpgrade: 25
+    upgradeBaseCost: 10000
+    upgradeCostGrowth: 1.6
+    maxUpgrades: 20
+  notices:
+    slots: 4
+    refillAfterClaimSeconds: 180
+    refillAfterDiscardSeconds: 180
+  visitors:
+    maxVisitors: 3
+    arrivalMinSeconds: 120
+    arrivalMaxSeconds: 300
+    staySeconds: 1800
+    coinMultiplier: 0.6
+    xpMultiplier: 2
+    reputationBase: 2
+    reputationPerItem: 1
+    sellerChance: 0.15
+    sellerPriceMultiplier: 2
+    maxDiscount: 0.4
+    fullDiscountReputation: 200
+  land:
+    orderDeedChance: 0.05
+    visitorDeedChance: 0.05
+  cocktailBar:
+    lineSize: 7
+    lineSeconds: 18000
+    cooldownSeconds: 10800
+    coinMultiplier: 1.5
+    xpMultiplier: 1.5

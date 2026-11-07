@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a75d5ea8bb1bac44b27ee8ed6a76b7f, type: 3}
+  m_Name: Crop_Corn
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.CropDefinition
+  id: corn
+  displayName: Corn
+  icon: {fileID: 21300000, guid: 51a426db17b15474da87101ec7965723, type: 3}
+  stageSprites:
+  - {fileID: 21300000, guid: 0957fdb455642c84fa94d22041956192, type: 3}
+  - {fileID: 21300000, guid: 5eb862926ccc1e745a7b36dd2231db1a, type: 3}
+  - {fileID: 21300000, guid: 9b1394a706d4e5f46ab9348f336bdc07, type: 3}
+  - {fileID: 21300000, guid: 1909ac033fc76c64b95e210f155e843c, type: 3}
+  growSeconds: 300
+  seedCost: 5
+  sellPrice: 8
+  yieldAmount: 2
+  harvestXp: 3
+  unlockLevel: 2

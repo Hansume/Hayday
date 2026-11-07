@@ -1,0 +1,99 @@
+{
+    "notes": [],
+    "crops": [
+        {
+            "id": "wheat",
+            "name": "Wheat",
+            "growSeconds": 60.0,
+            "seedCost": 1,
+            "sellPrice": 2,
+            "yield": 2,
+            "harvestXp": 1,
+            "unlockLevel": 1
+        },
+        {
+            "id": "corn",
+            "name": "Corn",
+            "growSeconds": 300.0,
+            "seedCost": 5,
+            "sellPrice": 8,
+            "yield": 2,
+            "harvestXp": 3,
+            "unlockLevel": 2
+        },
+        {
+            "id": "carrot",
+            "name": "Carrot",
+            "growSeconds": 900.0,
+            "seedCost": 10,
+            "sellPrice": 18,
+            "yield": 2,
+            "harvestXp": 6,
+            "unlockLevel": 3
+        },
+        {
+            "id": "tomato",
+            "name": "Tomato",
+            "growSeconds": 1200.0,
+            "seedCost": 12,
+            "sellPrice": 22,
+            "yield": 2,
+            "harvestXp": 7,
+            "unlockLevel": 4
+        },
+        {
+            "id": "potato",
+            "name": "Potato",
+            "growSeconds": 1800.0,
+            "seedCost": 15,
+            "sellPrice": 30,
+            "yield": 2,
+            "harvestXp": 9,
+            "unlockLevel": 6
+        },
+        {
+            "id": "strawberry",
+            "name": "Strawberry",
+            "growSeconds": 2400.0,
+            "seedCost": 20,
+            "sellPrice": 40,
+            "yield": 2,
+            "harvestXp": 11,
+            "unlockLevel": 7
+        },
+        {
+            "id": "soybean",
+            "name": "Soybean",
+            "growSeconds": 3000.0,
+            "seedCost": 24,
+            "sellPrice": 48,
+            "yield": 2,
+            "harvestXp": 13,
+            "unlockLevel": 9
+        },
+        {
+            "id": "chili",
+            "name": "Chili",
+            "growSeconds": 3600.0,
+            "seedCost": 28,
+            "sellPrice": 56,
+            "yield": 2,
+            "harvestXp": 15,
+            "unlockLevel": 10
+        },
+        {
+            "id": "pumpkin",
+            "name": "Pumpkin",
+            "growSeconds": 5400.0,
+            "seedCost": 40,
+            "sellPrice": 80,
+            "yield": 2,
+            "harvestXp": 20,
+            "unlockLevel": 12
+        }
+    ],
+    "buildings": [],
+    "feeds": [],
+    "products": [],
+    "goodsRecipes": []
+}

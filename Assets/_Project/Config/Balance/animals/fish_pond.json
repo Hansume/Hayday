@@ -1,0 +1,49 @@
+{
+    "notes": [
+        "The only fish pond. Fish make no product: buy any fish below into the pond, feed it once",
+        "(Fish Feed), and sell it when it's grown for its sellPrice and sellXp. Selling frees its place."
+    ],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "fish_pond",
+            "name": "Fish Pond",
+            "description": "A calm pond for up to 4 fish. Raise them and sell them when grown.",
+            "category": "Animals",
+            "width": 2,
+            "height": 2,
+            "cost": 100,
+            "unlockLevel": 1,
+            "animal": "Fish",
+            "animalCapacity": 4,
+            "animalCost": 0,
+            "productId": "",
+            "productionSeconds": 0.0
+        }
+    ],
+    "feeds": [
+        {
+            "id": "fish_feed",
+            "name": "Fish Feed",
+            "animal": "Fish",
+            "cropId": "wheat",
+            "cropAmount": 3,
+            "productionSeconds": 120.0,
+            "outputAmount": 1
+        }
+    ],
+    "products": [],
+    "goodsRecipes": [],
+    "fish": [
+        { "id": "goldfish", "name": "Goldfish", "cost": 20, "unlockLevel": 1, "growSeconds": 240.0, "sellPrice": 40, "sellXp": 4 },
+        { "id": "carp", "name": "Carp", "cost": 35, "unlockLevel": 3, "growSeconds": 360.0, "sellPrice": 65, "sellXp": 6 },
+        { "id": "perch", "name": "Perch", "cost": 45, "unlockLevel": 4, "growSeconds": 480.0, "sellPrice": 85, "sellXp": 7 },
+        { "id": "tilapia", "name": "Tilapia", "cost": 60, "unlockLevel": 6, "growSeconds": 600.0, "sellPrice": 110, "sellXp": 8 },
+        { "id": "trout", "name": "Trout", "cost": 75, "unlockLevel": 7, "growSeconds": 900.0, "sellPrice": 145, "sellXp": 10 },
+        { "id": "catfish", "name": "Catfish", "cost": 90, "unlockLevel": 9, "growSeconds": 1200.0, "sellPrice": 180, "sellXp": 12 },
+        { "id": "bass", "name": "Bass", "cost": 110, "unlockLevel": 11, "growSeconds": 1800.0, "sellPrice": 230, "sellXp": 14 },
+        { "id": "salmon", "name": "Salmon", "cost": 130, "unlockLevel": 13, "growSeconds": 2400.0, "sellPrice": 280, "sellXp": 16 },
+        { "id": "pike", "name": "Pike", "cost": 160, "unlockLevel": 15, "growSeconds": 3600.0, "sellPrice": 360, "sellXp": 20 },
+        { "id": "sturgeon", "name": "Sturgeon", "cost": 200, "unlockLevel": 18, "growSeconds": 5400.0, "sellPrice": 480, "sellXp": 26 }
+    ]
+}

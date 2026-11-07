@@ -1,0 +1,24 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "notice_board",
+            "name": "Order Board",
+            "description": "Fill orders with your crops and products.",
+            "category": "Landmark",
+            "width": 1,
+            "height": 1,
+            "cost": 0,
+            "unlockLevel": 1,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "",
+            "productionSeconds": 0.0
+        }
+    ],
+    "feeds": [],
+    "products": [],
+    "goodsRecipes": []
+}

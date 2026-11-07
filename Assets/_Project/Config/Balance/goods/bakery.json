@@ -1,0 +1,210 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "bakery",
+            "name": "Bakery",
+            "description": "Bakes breads, tarts, cakes and pies.",
+            "category": "Goods",
+            "width": 2,
+            "height": 2,
+            "cost": 300,
+            "unlockLevel": 4,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "",
+            "productionSeconds": 0.0
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "egg_tart",
+            "name": "Egg Tart",
+            "sellPrice": 130,
+            "collectXp": 10
+        },
+        {
+            "id": "custard",
+            "name": "Custard",
+            "sellPrice": 260,
+            "collectXp": 16
+        },
+        {
+            "id": "corn_bread",
+            "name": "Corn Bread",
+            "sellPrice": 100,
+            "collectXp": 9
+        },
+        {
+            "id": "carrot_cake",
+            "name": "Carrot Cake",
+            "sellPrice": 220,
+            "collectXp": 18
+        },
+        {
+            "id": "potato_pie",
+            "name": "Potato Pie",
+            "sellPrice": 480,
+            "collectXp": 26
+        },
+        {
+            "id": "strawberry_tart",
+            "name": "Strawberry Tart",
+            "sellPrice": 500,
+            "collectXp": 28
+        },
+        {
+            "id": "tomato_quiche",
+            "name": "Tomato Quiche",
+            "sellPrice": 640,
+            "collectXp": 34
+        },
+        {
+            "id": "pumpkin_pie",
+            "name": "Pumpkin Pie",
+            "sellPrice": 680,
+            "collectXp": 38
+        }
+    ],
+    "goodsRecipes": [
+        {
+            "outputId": "egg_tart",
+            "buildingId": "bakery",
+            "productionSeconds": 360.0,
+            "outputAmount": 1,
+            "unlockLevel": 4,
+            "inputs": [
+                {
+                    "itemId": "egg",
+                    "amount": 2
+                },
+                {
+                    "itemId": "wheat",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "custard",
+            "buildingId": "bakery",
+            "productionSeconds": 600.0,
+            "outputAmount": 1,
+            "unlockLevel": 5,
+            "inputs": [
+                {
+                    "itemId": "egg",
+                    "amount": 2
+                },
+                {
+                    "itemId": "milk",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "corn_bread",
+            "buildingId": "bakery",
+            "productionSeconds": 300.0,
+            "outputAmount": 1,
+            "unlockLevel": 6,
+            "inputs": [
+                {
+                    "itemId": "corn",
+                    "amount": 3
+                },
+                {
+                    "itemId": "egg",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "carrot_cake",
+            "buildingId": "bakery",
+            "productionSeconds": 720.0,
+            "outputAmount": 1,
+            "unlockLevel": 8,
+            "inputs": [
+                {
+                    "itemId": "carrot",
+                    "amount": 3
+                },
+                {
+                    "itemId": "egg",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "outputId": "potato_pie",
+            "buildingId": "bakery",
+            "productionSeconds": 1080.0,
+            "outputAmount": 1,
+            "unlockLevel": 10,
+            "inputs": [
+                {
+                    "itemId": "potato",
+                    "amount": 3
+                },
+                {
+                    "itemId": "butter",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "strawberry_tart",
+            "buildingId": "bakery",
+            "productionSeconds": 1200.0,
+            "outputAmount": 1,
+            "unlockLevel": 12,
+            "inputs": [
+                {
+                    "itemId": "strawberry",
+                    "amount": 3
+                },
+                {
+                    "itemId": "custard",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "tomato_quiche",
+            "buildingId": "bakery",
+            "productionSeconds": 1440.0,
+            "outputAmount": 1,
+            "unlockLevel": 14,
+            "inputs": [
+                {
+                    "itemId": "tomato",
+                    "amount": 3
+                },
+                {
+                    "itemId": "cheese",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "outputId": "pumpkin_pie",
+            "buildingId": "bakery",
+            "productionSeconds": 1620.0,
+            "outputAmount": 1,
+            "unlockLevel": 16,
+            "inputs": [
+                {
+                    "itemId": "pumpkin",
+                    "amount": 3
+                },
+                {
+                    "itemId": "butter",
+                    "amount": 1
+                }
+            ]
+        }
+    ]
+}

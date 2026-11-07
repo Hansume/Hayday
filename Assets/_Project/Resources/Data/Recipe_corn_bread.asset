@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbb9eb015bb50e469503bdcfd1f4c4c, type: 3}
+  m_Name: Recipe_corn_bread
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.GoodsRecipeDefinition
+  outputId: corn_bread
+  buildingId: bakery
+  inputs:
+  - itemId: corn
+    amount: 3
+  - itemId: egg
+    amount: 1
+  outputAmount: 1
+  productionSeconds: 300
+  unlockLevel: 6

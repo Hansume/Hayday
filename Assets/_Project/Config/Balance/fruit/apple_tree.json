@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "apple_tree",
+            "name": "Apple Tree",
+            "description": "Grows apple by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 400,
+            "unlockLevel": 3,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "apple",
+            "productionSeconds": 7200.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "apple",
+            "name": "Apple",
+            "sellPrice": 40,
+            "collectXp": 4
+        }
+    ],
+    "goodsRecipes": []
+}

@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "peach_tree",
+            "name": "Peach Tree",
+            "description": "Grows peach by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 1400,
+            "unlockLevel": 9,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "peach",
+            "productionSeconds": 21600.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "peach",
+            "name": "Peach",
+            "sellPrice": 150,
+            "collectXp": 10
+        }
+    ],
+    "goodsRecipes": []
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae6ccd461d66ef419fb121a3081aa89, type: 3}
+  m_Name: Building_Coop
+  m_EditorClassIdentifier: FarmGame.Runtime::FarmGame.Content.BuildingDefinition
+  id: coop
+  displayName: Coop
+  description: A cozy coop that houses up to 6 chickens.
+  icon: {fileID: 21300000, guid: aa51e0d4be1c8af4eac75a9578c3432a, type: 3}
+  worldSprite: {fileID: 21300000, guid: ec533f40e4871674fb6f4b94fe6471bd, type: 3}
+  footprint: {x: 2, y: 2}
+  cost: 200
+  category: 0
+  animalKind: 2
+  animalCapacity: 6
+  animalCost: 50
+  productId: egg
+  productionSeconds: 480
+  unlockLevel: 2
+  harvestAmount: 0
+  growingSprite: {fileID: 0}

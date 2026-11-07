@@ -1,0 +1,32 @@
+{
+    "notes": [],
+    "crops": [],
+    "buildings": [
+        {
+            "id": "coconut_palm",
+            "name": "Coconut Palm",
+            "description": "Grows coconut by itself. Tap to pick.",
+            "category": "Fruit",
+            "width": 1,
+            "height": 1,
+            "cost": 6000,
+            "unlockLevel": 18,
+            "animal": "",
+            "animalCapacity": 0,
+            "animalCost": 0,
+            "productId": "coconut",
+            "productionSeconds": 86400.0,
+            "harvestAmount": 3
+        }
+    ],
+    "feeds": [],
+    "products": [
+        {
+            "id": "coconut",
+            "name": "Coconut",
+            "sellPrice": 800,
+            "collectXp": 34
+        }
+    ],
+    "goodsRecipes": []
+}
